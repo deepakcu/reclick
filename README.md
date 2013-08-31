@@ -23,13 +23,13 @@ Installation
 Project organization
 ********************
 
-+--src
-	+--reclick [source files for reclick compiler]
-	+--click [source files for click compiler wrapper]
-+--config
-	+--dataplane [location of dataplane verilog produced from click description]
+[\src\reclick] 	- source files for reclick compiler
+[\src\click]	- source files for click compiler wrapper
+[\config]	- .click files provide example Click dataplane configurations
+[\config\dataplane] - dataplane [location of dataplane verilog produced from click description]
+
 	+--tests [location of NetFPGA specific tests for generating packets]
-	+--.click files provide example Click dataplane configurations
+	+--
 +--doc
 	+--documentation on ReClick grammar
 +--elements
